@@ -1,1 +1,21 @@
+audio:
+  sample_rate: 22050
+  duration: 5
+  mono: true
 
+features:
+  type: cqt
+  n_bins: 128
+  hop_length: 512
+
+model:
+  type: cnn_bilstm
+  epochs: 50
+  batch_size: 32
+  lr: 0.001
+
+paths:
+  raw_data: data/raw/
+  processed: data/processed/
+  features: features/
+  checkpoints: models/checkpoints/
