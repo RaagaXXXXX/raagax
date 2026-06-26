@@ -115,6 +115,7 @@ data/raw/
 data/processed/
 features/*.npy
 models/checkpoints/
+checkpoints/
 
 # IDE files
 .vscode/

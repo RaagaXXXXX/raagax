@@ -10,6 +10,10 @@ features:
 
 model:
   type: cnn_bilstm
+  num_ragas: 10
+  num_swars: 8
+
+training:
   epochs: 50
   batch_size: 32
   lr: 0.001
